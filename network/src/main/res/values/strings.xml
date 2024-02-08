@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="maxTime">10</string>
+    <string name="begin">点击开始</string>
+    <string name="download_finish">下载完成</string>
+    <string name="download_fail">下载失败</string>
+</resources>

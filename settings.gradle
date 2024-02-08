@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "My Application"
+include ':app'
+include ':app2'
+include ':myapp'
+include ':network'
+include ':service'
+include ':dataproviderdemo'
+include ':dataresoverdemo'
+include ':getdatafromsystemdemo'
+include ':udpdemo'

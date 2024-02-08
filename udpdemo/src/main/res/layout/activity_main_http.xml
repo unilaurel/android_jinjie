@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/id_btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send tcp"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/id_et_msg"
+        android:layout_width="match_parent"
+        android:text="https://www.google.com"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/id_btn_send" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_et_msg">
+
+        <TextView
+            android:id="@+id/id_tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</RelativeLayout>
